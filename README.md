@@ -84,7 +84,7 @@ Anthropic example:
 export ANTHROPIC_API_KEY=YOUR_KEY
 python src/01_build_dataset.py \
   --backend anthropic \
-  --model anthropic:claude-haiku-4-5-20251001 \
+  --model claude-haiku-4-5-20251001 \
   --n 4000 \
   --output data/dataset_api_only_20k_anthropic.json
 ```
